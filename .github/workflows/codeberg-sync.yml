@@ -1,0 +1,59 @@
+# Sync repos from Codeberg → GitHub
+# Runs every 6 hours + on manual trigger
+#
+# Setup:
+#   1. Add secret: CODEBERG_TOKEN (generate at https://codeberg.org/NutypeBuddha/-/settings/tokens)
+#   2. For each repo below, create an empty repo on GitHub first
+#   3. Adjust the REPOS list as needed
+#
+# Note: This force-pushes to GitHub. Your GitHub repos become mirrors.
+
+name: Codeberg Mirror Sync
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:         # Manual trigger
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/codeberg-sync.yml'
+
+env:
+  CODEBERG_USER: NutypeBuddha
+  GITHUB_USER: nutypebuddha
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        repo:
+          - cid
+          - cid-bridge
+          - mana-core-v2
+          - Mirror-Sword
+          - Zanpakato-Kasien
+
+    steps:
+      - name: Sync ${{ matrix.repo }}
+        run: |
+          echo "🔄 Syncing ${{ matrix.repo }} from Codeberg..."
+
+          # Clone from Codeberg (full history)
+          git clone --force \
+            "https://${{ secrets.CODEBERG_TOKEN }}@codeberg.org/${{ env.CODEBERG_USER }}/${{ matrix.repo }}.git" \
+            /tmp/source
+
+          cd /tmp/source
+
+          # Add GitHub remote
+          git remote add github \
+            "https://${{ github.token }}@github.com/${{ env.GITHUB_USER }}/${{ matrix.repo }}.git"
+
+          # Force push all branches + tags
+          git push github --force --all
+          git push github --force --tags
+
+          echo "✅ ${{ matrix.repo }} synced"
