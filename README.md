@@ -1,39 +1,51 @@
 <div align="center">
 
-# Ashley Wintermore / NutypeBuddha
+# Laverna Ashley Wintermore
 
-**Systems engineer building local-first, authority-safe AI infrastructure.**
+Artist and systems engineer. Wintermore Housekeeping.
 
 [![GitHub](https://img.shields.io/badge/GitHub-nutypebuddha-181717?style=for-the-badge&logo=github)](https://github.com/nutypebuddha)
 [![Codeberg](https://img.shields.io/badge/Codeberg-NutypeBuddha-2185C5?style=for-the-badge&logo=codeberg)](https://codeberg.org/NutypeBuddha)
-[![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust)](https://github.com/nutypebuddha/L)
+[![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust)](https://github.com/nutypebuddha/kitsunefox)
 
 </div>
 
 ---
 
-## Current work
+## Now
 
-**Wintermore** — *in development, public repository forthcoming.*
-
-A local-first Agent and workspace system built around persistent identity,
-provider separation, explicit human authorization, provenance, and offline
-operation.
-
-[**L**](https://github.com/nutypebuddha/L) — current public project.
-
-Offline-first deterministic verification infrastructure for AI:
-validation, proof objects, and fail-loud refusal.
-
-[**kitsunefox**](https://github.com/nutypebuddha/kitsunefox) — hardened,
+Art + [**kitsunefox**](https://github.com/nutypebuddha/kitsunefox) — hardened,
 themeable Firefox configuration with reproducible release tooling,
 checksums, verification, launcher, and install discipline.
+
+## Wintermore
+
+Local systems work, unpublished. No repository link yet — it does not exist
+publicly. A local-first Agent and workspace system built around persistent
+identity, provider separation, explicit human authorization, provenance, and
+offline operation.
+
+## Research
+
+Prior verification research, now historical unless separately made public
+later. Earlier systems (L.ai and predecessors) are archived; their source,
+releases, tests, and history are preserved for reference.
+
+## Historical
+
+- **L.ai verification systems** — archived.
+  ([L](https://github.com/nutypebuddha/L),
+  [lai](https://github.com/nutypebuddha/lai),
+  [Laverna](https://github.com/nutypebuddha/Laverna),
+  [cid](https://github.com/nutypebuddha/cid),
+  [cid-bridge](https://github.com/nutypebuddha/cid-bridge)).
+- **mana-core-v2** — archived semantic simulation experiment.
 
 ---
 
 ## Receipts
 
-Earned results from current work, stated plainly:
+Earned results from completed work, stated plainly:
 
 - Agent identity survives process restart and provider removal.
 - The exact same portable behavior contract reaches the selected intelligence
@@ -64,20 +76,6 @@ Earned results from current work, stated plainly:
 | **AI** | Ollama, local LLMs |
 | **UI** | Tauri |
 | **Portability** | Offline-first |
-
----
-
-## Historical work
-
-Earlier systems that fed into later work — archived, not active:
-
-- [**lai**](https://github.com/nutypebuddha/lai) — archived predecessor to **L**.
-- **Laverna**, **cid**, and **cid-bridge** — archived predecessors later folded
-  into **L** ([Laverna](https://github.com/nutypebuddha/Laverna),
-  [cid](https://github.com/nutypebuddha/cid),
-  [cid-bridge](https://github.com/nutypebuddha/cid-bridge)).
-- [**mana-core-v2**](https://github.com/nutypebuddha/mana-core-v2) — archived
-  semantic simulation experiment.
 
 ---
 
