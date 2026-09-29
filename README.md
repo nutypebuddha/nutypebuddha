@@ -14,8 +14,10 @@ Artist and systems engineer. Wintermore Housekeeping.
 
 ## Now
 
-Art + [**kitsunefox**](https://github.com/nutypebuddha/kitsunefox) — hardened,
-themeable Firefox configuration with reproducible release tooling,
+Art + [**kitsunefox**](https://github.com/nutypebuddha/kitsunefox) —
+my maintained fork of
+[0x251C08/kitsunefox](https://github.com/0x251C08/kitsunefox),
+with hardened Firefox configuration, themes, reproducible release tooling,
 checksums, verification, launcher, and install discipline.
 
 ## Wintermore
@@ -40,10 +42,17 @@ releases, tests, and history are preserved for reference.
   [cid](https://github.com/nutypebuddha/cid),
   [cid-bridge](https://github.com/nutypebuddha/cid-bridge)).
 - **mana-core-v2** — archived semantic simulation experiment.
+- **Other archived experiments and placeholders** —
+  [Mirror-Sword](https://github.com/nutypebuddha/Mirror-Sword),
+  [RuneCore-](https://github.com/nutypebuddha/RuneCore-),
+  and [Zanpakato-Kasien](https://github.com/nutypebuddha/Zanpakato-Kasien).
 
 ---
 
 ## Receipts
+
+Selected results from local, unpublished Wintermore work. Wintermore remains
+unpublished until it is ready.
 
 Earned results from completed work, stated plainly:
 
