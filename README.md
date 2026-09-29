@@ -4,17 +4,13 @@
   <img alt="Laverna Ashley Wintermore — artist and systems engineer, Wintermore Housekeeping" src=".github/assets/wintermore-masthead-light.svg" width="640">
 </picture>
 
-`ACTIVE RESEARCH · GREMLIN` · `ENGINEERING · KITSUNEFOX` · `PRIVATE · WINTERMORE`
+`ACTIVE RESEARCH · GREMLIN` · `ENGINEERING · KITSUNEFOX` · `UNPUBLISHED · WINTERMORE`
 
 <div align="center">
 
-# Laverna Ashley Wintermore
-
 Artist and systems engineer. Wintermore Housekeeping.
 
-[![GitHub](https://img.shields.io/badge/GitHub-nutypebuddha-181717?style=for-the-badge&logo=github)](https://github.com/nutypebuddha)
-[![Codeberg](https://img.shields.io/badge/Codeberg-NutypeBuddha-2185C5?style=for-the-badge&logo=codeberg)](https://codeberg.org/NutypeBuddha)
-[![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust)](https://github.com/nutypebuddha/kitsunefox)
+[GitHub](https://github.com/nutypebuddha) · [Codeberg](https://codeberg.org/NutypeBuddha) · [Rust](https://github.com/nutypebuddha/kitsunefox)
 
 </div>
 
