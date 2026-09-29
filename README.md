@@ -14,6 +14,10 @@ Artist and systems engineer. Wintermore Housekeeping.
 
 ## Now
 
+[**GREMLIN**](https://github.com/nutypebuddha/GREMLIN) —
+primary public research project: minimal session structure, provenance,
+refusal, and the boundary between capability and authority.
+
 Art + [**kitsunefox**](https://github.com/nutypebuddha/kitsunefox) —
 my maintained fork of
 [0x251C08/kitsunefox](https://github.com/0x251C08/kitsunefox),
