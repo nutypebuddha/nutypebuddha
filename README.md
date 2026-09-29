@@ -1,3 +1,11 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/wintermore-masthead-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset=".github/assets/wintermore-masthead-light.svg">
+  <img alt="Laverna Ashley Wintermore — artist and systems engineer, Wintermore Housekeeping" src=".github/assets/wintermore-masthead-light.svg" width="640">
+</picture>
+
+`ACTIVE RESEARCH · GREMLIN` · `ENGINEERING · KITSUNEFOX` · `PRIVATE · WINTERMORE`
+
 <div align="center">
 
 # Laverna Ashley Wintermore
@@ -12,7 +20,7 @@ Artist and systems engineer. Wintermore Housekeeping.
 
 ---
 
-## Now
+## 01 — Now
 
 [**GREMLIN**](https://github.com/nutypebuddha/GREMLIN) —
 primary public research project: minimal session structure, provenance,
@@ -24,20 +32,20 @@ my maintained fork of
 with hardened Firefox configuration, themes, reproducible release tooling,
 checksums, verification, launcher, and install discipline.
 
-## Wintermore
+## 02 — Wintermore
 
 Local systems work, unpublished. No repository link yet — it does not exist
 publicly. A local-first Agent and workspace system built around persistent
 identity, provider separation, explicit human authorization, provenance, and
 offline operation.
 
-## Research
+## 03 — Research
 
 Prior verification research, now historical unless separately made public
 later. Earlier systems (L.ai and predecessors) are archived; their source,
 releases, tests, and history are preserved for reference.
 
-## Historical
+## 04 — Historical
 
 - **L.ai verification systems** — archived.
   ([L](https://github.com/nutypebuddha/L),
@@ -53,7 +61,7 @@ releases, tests, and history are preserved for reference.
 
 ---
 
-## Receipts
+## 05 — Receipts
 
 Selected results from local, unpublished Wintermore work. Wintermore remains
 unpublished until it is ready.
@@ -71,7 +79,7 @@ Earned results from completed work, stated plainly:
 
 ---
 
-## How I build
+## 06 — How I build
 
 - Deterministic hosts over hopeful prompts.
 - Explicit human authorization before any mutation.
@@ -81,7 +89,7 @@ Earned results from completed work, stated plainly:
 
 ---
 
-## Stack
+## 07 — Stack
 
 | Layer | Tools |
 |---|---|
